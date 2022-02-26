@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: SF Pro Display;
+    font-family: 'General Sans', sans-serif;
 }
 .container{
     width: 100%;
@@ -57,7 +57,7 @@ nav ul li a:hover{
 .col-1 p{
     font-size: 16px;
     color: #f2f2f2;
-    font-family: SF Pro Display;
+    font-family: General Sans;
     font-weight: 300;
 }
 .card-card {
@@ -108,7 +108,7 @@ nav ul li a:hover{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: SF Pro Display;
+    font-family: General Sans;
     font-weight: 300;
     line-height: normal;
     font-stretch: normal;
