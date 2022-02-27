@@ -18,19 +18,16 @@
     padding-top: 20px;
 }
 .logo-text-eipi{
-    font-family: "General Sans";
     font-weight: 500;
     font-size: 24px;
     color: #ffffff;
 }
 .logo-text-dot{
-    font-family: "General Sans";
     font-weight: 500;
     font-size: 24px;
     color: #fc3c44;
 }
 .logo-text-space{
-    font-family: "General Sans";
     font-weight: 500;
     font-size: 24px;
     color: #ffffff;
@@ -89,12 +86,14 @@ nav ul li a:hover{
     width: 500px;
     height: 305px;
     position: absolute;
-    object-fit: cover;
+    object-fit:cover;
     box-sizing: border-box;
     border-color: rgba(255, 255, 255, 1);
     border-style: solid;
     border-width: 1px;
     border-radius: 3px 3px 0 0;
+    border-top: none;
+    border-bottom: none;
   }
   .card-titlebox {
     top: 305px;
@@ -102,7 +101,7 @@ nav ul li a:hover{
     width: 500px;
     height: 45px;
     display: flex;
-    padding: 13px 16px 13px 5px;
+    padding: 13px 10px 13px 10px;
     position: absolute;
     box-sizing: border-box;
     align-items: center;
