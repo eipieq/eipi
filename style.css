@@ -15,11 +15,22 @@
     width: 100;
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
-.logo{
-    width: 114px;
-    cursor: pointer;
-    margin: 30px 0;
+.logo-text-eipi{
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+}
+.logo-text-dot{
+    font-weight: 500;
+    font-size: 24px;
+    color: #fc3c44;
+}
+.logo-text-space{
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
 }
 nav{
     flex: 1;
@@ -28,7 +39,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 nav ul li a{
     text-decoration: none;
@@ -52,12 +63,11 @@ nav ul li a:hover{
 .col-1{
     flex-basis: 40%;
     position: relative;
-    margin-left: 0px;
 }
 .col-1 p{
-    font-size: 16px;
-    color: #f2f2f2;
-    font-family: General Sans;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Satoshi";
     font-weight: 300;
 }
 .card-card {
@@ -66,8 +76,8 @@ nav ul li a:hover{
     display: flex;
     position: relative;
     float: right;
-    margin-right: 30px;
     margin-top: -55px;
+    margin-right: 20px;
     box-sizing: border-box;
     align-items: center;
     background-color: rgba(4, 4, 6, 1);
@@ -108,7 +118,7 @@ nav ul li a:hover{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: General Sans;
+    font-family:"Satoshi";
     font-weight: 300;
     line-height: normal;
     font-stretch: normal;
@@ -123,16 +133,4 @@ nav ul li a:hover{
     font-weight: 300;
     font-stretch: normal;
     text-decoration: none;
-  }
-  .card-image1 {
-    top: 5px;
-    left: 5px;
-    width: 490px;
-    height: 295px;
-    position: absolute;
-    object-fit: cover;
-    border-color: rgba(255, 255, 255, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 3px;
   }
