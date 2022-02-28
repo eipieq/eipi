@@ -18,16 +18,19 @@
     padding-top: 20px;
 }
 .logo-text-eipi{
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 24px;
     color: #ffffff;
 }
 .logo-text-dot{
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 24px;
     color: #fc3c44;
 }
 .logo-text-space{
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 24px;
     color: #ffffff;
