@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'General Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo-text-eipi{
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+}
+.logo-text-dot{
+    font-weight: 500;
+    font-size: 24px;
+    color: #fc3c44;
+}
+.logo-text-space{
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-inline-start: .6em;
+}
+nav ul li b{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+}
+.col-1 p{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Satoshi";
+    font-weight: 400;
+}
+@media screen and (min-width: 600px) {
+.card-card {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    position: relative;
+    float: right;
+    margin-top: -55px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgba(4, 4, 6, 1);
+  }
+  .card-image {
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 305px;
+    position: absolute;
+    object-fit:cover;
+    box-sizing: border-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px 3px 0 0;
+    border-top: none;
+    border-bottom: none;
+  }
+  .card-titlebox {
+    top: 305px;
+    left: 0px;
+    width: 500px;
+    height: 45px;
+    display: flex;
+    padding: 13px 10px 13px 10px;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+  }
+  .card-text {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family:"General Sans";
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .card-text1 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 300;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 600px) {
+    .card-card {
+        width: 400px;
+        height: 250px;
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        align-items: center;
+        
+        background-color: rgba(4, 4, 6, 1);
+      }
+      .card-image {
+        top: 0px;
+        left: 0px;
+        width: 400px;
+        height: 215px;
+        position: absolute;
+        object-fit: cover;
+        border-color: rgba(255, 255, 255, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px 3px 0 0;
+        background-color: var(--dl-color-default-gray635018);
+      }
+      .card-titlebox {
+        top: 215px;
+        left: 0px;
+        width: 400px;
+        height: 35px;
+        display: flex;
+        padding: 10px 10px 10px 10px;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        border-color: rgba(255, 255, 255, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 0 0 3px 3px;
+        border-top: 0px;
+      }
+      .card-text {
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        font-size: 14px;
+        align-self: auto;
+        font-style: normal;
+        text-align: left;
+        font-family: "General Sans";
+        font-weight: 300;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .card-text1 {
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        align-self: auto;
+        font-style: normal;
+        text-align: left;
+        font-weight: 300;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      
+}
