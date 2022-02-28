@@ -64,10 +64,19 @@ nav ul li a:hover{
     align-items: center;
     margin: 20px 0;
 }
-.col-1{
-    flex-basis: 40%;
-    position: relative;
+@media screen and (min-width: 600px) {
+    .col-1{
+        flex-basis: 40%;
+        position: relative;
+    }
 }
+@media screen and (max-width: 600px) {
+    .col-1{
+        flex-basis: 80%;
+        position: relative;
+    }
+}
+
 .col-1 p{
     font-size: 14px;
     color: #ffffff;
