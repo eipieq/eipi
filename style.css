@@ -121,7 +121,7 @@ nav ul li a:hover{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family:"Satoshi";
+    font-family:"General Sans";
     font-weight: 300;
     line-height: normal;
     font-stretch: normal;
@@ -140,35 +140,24 @@ nav ul li a:hover{
 }
 @media screen and (max-width: 600px) {
     .card-card {
-        width: 400px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
         display: flex;
         position: relative;
+        max-width: 300px;
         box-sizing: border-box;
         align-items: center;
-        
+        border-color: transparent;
+        border-radius: 3px;
         background-color: rgba(4, 4, 6, 1);
       }
-      .card-image {
-        top: 0px;
-        left: 0px;
-        width: 400px;
-        height: 215px;
-        position: absolute;
-        object-fit: cover;
-        border-color: rgba(255, 255, 255, 1);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 3px 3px 0 0;
-        background-color: var(--dl-color-default-gray635018);
-      }
       .card-titlebox {
-        top: 215px;
+        top: 160px;
         left: 0px;
-        width: 400px;
-        height: 35px;
+        width: 300px;
+        height: 40px;
         display: flex;
-        padding: 10px 10px 10px 10px;
+        padding: 13px 16px 13px 10px;
         position: absolute;
         box-sizing: border-box;
         align-items: center;
@@ -176,7 +165,7 @@ nav ul li a:hover{
         border-style: solid;
         border-width: 1px;
         border-radius: 0 0 3px 3px;
-        border-top: 0px;
+        border-top: none;
       }
       .card-text {
         color: rgba(255, 255, 255, 1);
@@ -201,5 +190,16 @@ nav ul li a:hover{
         font-stretch: normal;
         text-decoration: none;
       }
-      
-}
+      .card-image {
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        object-fit: cover;
+        border-color: rgba(255, 255, 255, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px 3px 0 0;
+      }
+    }
