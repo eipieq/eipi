@@ -66,20 +66,20 @@ nav ul li a:hover{
 }
 @media screen and (max-width: 600px) {
     .col-1{
-        flex-basis: 90%;
+        flex-basis: 95%;
         position: relative;
     }
 }
 .col-1 p{
     font-size: 14px;
     color: #ffffff;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-weight: 400;
 }
-@media (min-width: 760px){
+@media (min-width: 550px){
 .card{
     margin-top: -125px;
-    width: 400px;
+    width: auto;
     float: right;
     position: relative;
     box-sizing: border-box;
@@ -125,9 +125,9 @@ nav ul li a:hover{
     text-decoration: none;
 }
 }
-@media (max-width: 760px){
+@media (max-width: 550px){
     .card{
-        width: 320px;
+        width: auto;
         float: left;
         position: relative;
         box-sizing: border-box;
