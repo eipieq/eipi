@@ -73,7 +73,7 @@ nav ul li a:hover{
 .col-1 p{
     font-size: 14px;
     color: #ffffff;
-    font-family: "General Sans";
+    font-family: "Satoshi";
     font-weight: 400;
 }
 @media (min-width: 600px){
@@ -117,7 +117,7 @@ nav ul li a:hover{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family:"General Sans";
+    font-family:"Satoshi";
     font-weight: 300;
     line-height: normal;
     font-stretch: normal;
@@ -164,7 +164,7 @@ nav ul li a:hover{
         align-self: auto;
         font-style: normal;
         text-align: left;
-        font-family:"General Sans";
+        font-family:"Satoshi";
         font-weight: 300;
         line-height: normal;
         font-stretch: normal;
