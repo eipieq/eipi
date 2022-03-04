@@ -95,10 +95,7 @@ nav ul li a:hover{
     padding-bottom: none;
     object-fit: cover;
     box-sizing: border-box;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 3px 3px 0 0;
+    
 }
 .card-title{
     width: 100%;
@@ -142,10 +139,7 @@ nav ul li a:hover{
         padding-bottom: none;
         object-fit: cover;
         box-sizing: border-box;
-        border-color: rgb(255, 255, 255);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 3px 3px 0 0;
+        
     }
     .card-title{
         width: 100%;
