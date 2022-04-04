@@ -39,6 +39,7 @@ nav{
     text-align: right;
 }
 nav ul li{
+    font-family: "General Sans";
     list-style: none;
     display: inline-block;
     
